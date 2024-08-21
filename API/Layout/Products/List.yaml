@@ -1,0 +1,31 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: ModelId
+      dataType: String
+      label: Model Id
+      column: 6
+  cardDetail:
+    fields:
+    - fieldName: ProjectId
+      dataType: String
+      label: Project Id
+      column: 4
+    - fieldName: ObjectId
+      dataType: Int64
+      label: Object Id
+      column: 4
+    - fieldName: IfcType
+      dataType: String
+      label: Ifc Type
+      column: 4
+filter:
+  fields:
+  - fieldName: ModelId
+    dataType: String
+    label: Model Id
+    column: 4
+  - fieldName: ProjectId
+    dataType: String
+    label: Project Id
+    column: 4

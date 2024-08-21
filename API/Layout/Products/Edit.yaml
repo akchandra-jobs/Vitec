@@ -1,0 +1,32 @@
+- label: Product details
+  dataType: section
+  column: 6
+  fields:
+  - fieldName: ModelId
+    dataType: String
+    required: false
+    length: 40
+    label: Model Id
+    column: 6
+  - fieldName: JsonData
+    dataType: String
+    required: false
+    label: Json Data
+    column: 6
+  - fieldName: ProjectId
+    dataType: String
+    required: false
+    length: 40
+    label: Project Id
+    column: 6
+  - fieldName: ObjectId
+    dataType: Int64
+    required: false
+    label: Object Id
+    column: 6
+  - fieldName: IfcType
+    dataType: String
+    required: false
+    length: 100
+    label: Ifc Type
+    column: 6

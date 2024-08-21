@@ -1,0 +1,100 @@
+- name: Project Management
+  icon: fas fa-project-diagram
+  items:
+    - name: Project
+      description: Project management and administration.
+      route: Project
+      icon: fas fa-tasks
+    - name: Project Milestone
+      description: Project Milestone management and administration.
+      route: Project_Milestone
+      icon: fas fa-flag
+    - name: Project Phase
+      description: Project Phase management and administration.
+      route: Project_Phase
+      icon: fas fa-chart-line
+    - name: Project Status
+      description: Project Status management and administration.
+      route: Project_Status
+      icon: fas fa-check-circle
+    - name: Project Type
+      description: Project Type management and administration.
+      route: Project_Type
+      icon: fas fa-stream
+- name: Product management
+  icon: fab fa-product-hunt
+  items:
+    - name: Product
+      icon: fab fa-product-hunt
+      route: Products
+- name: Resource Management
+  icon: fas fa-cogs
+  items:
+    - name: Resource Group
+      description: Resource Group management and administration.
+      route: Resource_Group
+      icon: fas fa-cog
+    - name: Resource Group x Cause
+      description: Resource Group x Cause management and administration.
+      route: Resource_Group_X_Cause
+      icon: fas fa-funnel-dollar
+- name: Data Management
+  icon: fas fa-database
+  items:
+    - name: Data Import
+      description: Data Import management and administration.
+      route: DATA_IMPORT
+      icon: fas fa-upload
+    - name: Integration Data
+      description: Integration Data management and administration.
+      route: INTEGRATION_DATA
+      icon: fas fa-exchange-alt
+    - name: Scheduled Job
+      description: Scheduled Job management and administration.
+      route: SCHEDULED_JOB
+      icon: fas fa-clock
+- name: Document Management
+  icon: fas fa-file-alt
+  items:
+    - name: Document
+      description: Document management and administration.
+      route: Document
+      icon: fas fa-file-alt
+    - name: Document Category
+      description: Document Category management and administration.
+      route: Document_Category
+      icon: fas fa-folder-open
+    - name: Document Revision
+      description: Document Revision management and administration.
+      route: Document_Revision
+      icon: fas fa-history
+    - name: Document Type
+      description: Document Type management and administration.
+      route: Document_Type
+      icon: fas fa-file
+- name: Reporting
+  icon: fas fa-chart-pie
+  items:
+    - name: Report
+      description: Report management and administration.
+      route: REPORT
+      icon: fas fa-file-chart-pie
+    - name: Custom Report
+      description: Custom Report management and administration.
+      route: CUSTOM_REPORT
+      icon: fas fa-file-alt
+- name: Settings
+  icon: fas fa-cog
+  items:
+    - name: Setting
+      description: Setting management and administration.
+      route: SETTING
+      icon: fas fa-cog
+    - name: Language
+      description: Language management and administration.
+      route: LANGUAGE
+      icon: fas fa-language
+    - name: Web Profile
+      description: Web Profile management and administration.
+      route: WEB_PROFILE
+      icon: fas fa-desktop
